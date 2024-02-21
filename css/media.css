@@ -1,0 +1,164 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px)
+{
+/*header part start*/
+header
+{
+padding: 0;
+}
+.logo 
+{
+width: 60px;
+}
+.menu ul li a 
+{
+padding: 0 10px !important;
+}
+/*header part end*/
+/*banner start*/
+.banner {
+    padding: 0px 0 60px;
+}
+.banner_text 
+{
+    margin-top: 20px;
+    text-align: center;
+}
+.banner_p1 
+{}
+.banner_h1 
+{
+    margin: 10px 0 10px;
+    padding-right: 0; 
+    font-size: 25px;
+    line-height: 35px;
+}
+.banner_p2 
+{
+	padding: 0;
+ 	line-height: 24px;
+}
+.banner_image {
+    padding: 0;
+}
+/*banner end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+/*header part start*/
+header
+{
+padding: 0;
+}
+.menu ul li a 
+{
+padding: 0 10px !important;
+}
+/*header part end*/
+/*banner start*/
+.banner {
+    padding: 0px 0 60px;
+}
+.banner_text 
+{
+    margin-top: 30px;
+    text-align: center;
+}
+.banner_p1 
+{}
+.banner_h1 
+{
+    margin: 10px 0 10px;
+    padding-right: 0; 
+    font-size: 25px;
+    line-height: 35px;
+}
+.banner_p2 
+{
+	padding: 0 20px;
+ 	line-height: 24px;
+}
+.banner_image {
+    padding: 0 120px;
+}
+/*banner end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+/*header part start*/
+.menu ul li a 
+{
+padding: 0 10px !important;
+}
+/*header part end*/
+/*banner start*/
+.banner {
+    padding: 0px 0 60px;
+}
+.banner_text 
+{
+    margin-top: 30px;
+    text-align: center;
+}
+.banner_p1 
+{}
+.banner_h1 
+{
+    margin: 10px 0 10px;
+    padding-right: 0; 
+    font-size: 35px;
+    line-height: 35px;
+}
+.banner_p2 
+{
+	padding: 0 50px;
+ 	line-height: 24px;
+}
+.banner_image {
+    padding: 0 120px;
+}
+/*banner end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+/*banner start*/
+.banner_p1 {
+	font-size: 14px;
+}
+.banner_h1 {
+    padding-right: 30px;
+    font-size: 40px;
+}
+.banner_p2 {
+	font-size: 14px;
+    line-height: 30px;
+}
+.banner_image {
+    padding: 0 50px;
+}
+/*banner end*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px)
+{
+/*banner start*/
+.banner_h1 
+{
+   padding-right: 40px;
+   
+}
+/*banner end*/
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px)
+{ 
+	
+}
